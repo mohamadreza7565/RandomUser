@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="dividerColor" format="color"/>
+    <attr name="rippleOnBackground" format="color"/>
+    <attr name="bottomNavColor" format="color"/>
+    <attr name="deActiveRatingBarBgBlackColor" format="color"/>
+    <attr name="activeRatingBarBgBlackColor" format="color"/>
+    <attr name="hintColorBlackEditText" format="color"/>
+    <declare-styleable name="CustomToolbar">
+        <attr name="ct_title" format="string"/>
+        <attr name="ct_showBack"  format="boolean"/>
+    </declare-styleable>
+</resources>

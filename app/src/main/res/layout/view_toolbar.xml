@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            app:srcCompat="@drawable/ic_back"
+            android:background="?selectableItemBackgroundBorderless"
+            android:id="@+id/backBtn"
+            android:scaleType="centerInside"
+            android:rotation="180"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="16dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?textAppearanceHeadline5"
+            android:id="@+id/toolbarTitleTv"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="58dp"
+            tools:text="Title"/>
+
+
+</FrameLayout>
